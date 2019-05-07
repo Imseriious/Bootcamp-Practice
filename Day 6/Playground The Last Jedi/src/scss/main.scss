@@ -1,0 +1,131 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: gray;
+    
+    ul{
+       list-style-type: none; 
+       display: flex;
+       justify-content: center;
+       margin: 0px;
+       padding: 0px;
+
+       li{
+           
+           font-size: 20px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-right: 30px;
+           color: white;
+
+       }
+        
+    }
+}
+
+.banner{
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    background-image: url(../img/welcome.jpg);
+    background-position: center;
+.bannercontent{
+
+    width:800px;
+   margin-left: auto;
+   margin-right: auto;
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        margin: 0px;
+    }
+
+    h3{
+        color: lightgray;
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 25px;
+    }
+}
+    
+}
+
+.Plot{
+    padding: 0px;
+    margin: 0px;
+    background-color: lightgray;
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+
+    .plotflex{
+
+    display: flex;
+    padding-bottom: 40px;
+    
+        img{
+            height: 300px;
+        }
+
+        .plotflex2{
+            padding-left: 20px;
+
+            h4{
+                font-size: 25px;
+                text-decoration: none;
+            }
+
+            p{
+                font-size:18px;
+            }
+        }
+
+    }
+}
+    
+    
+
+.Plotcontent{
+   width:800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.characters{
+    background-image: url(../img/rey-standing.jpg);
+    height: 700px;
+    background-position: center;
+    display: flex;
+
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .faceimg{
+
+        
+        img{
+            height: 120px;
+            border-radius: 50%;
+            
+        }
+    }
+}

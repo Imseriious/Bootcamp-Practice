@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7)),url(../img/got-bg.jpg);
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+}
+
+
+.flex{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.top{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 60px;
+    color: white;
+}
+
+.bottom{
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 60px;
+
+        h1{
+            font-size: 45px;
+        }
+}
