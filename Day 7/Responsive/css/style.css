@@ -1,0 +1,28 @@
+
+
+main{
+
+ }
+
+
+@media screen and (max-width: 810px) { /*When the screen will have the max width of 810px this will happen */
+    h2{
+        color: red;
+    }
+
+    main{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    h1{
+
+    }
+
+    main{
+
+    }
+
+}
