@@ -1,0 +1,48 @@
+@font-face { 
+    font-family: woods;
+    src: url(fonts/From\ the\ Woods.otf);
+} 
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+body{
+    color: white;
+    background-image: url(img/bg.jpg);
+}
+
+.background{
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.background h1{
+    font-family: woods;
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.mainp{
+    font-size: 2rem;
+    text-align: justify;
+    padding-bottom: 3rem;
+}
+
+footer{
+    background-color: #2D4823;
+    padding-bottom: 0px;
+}
+
+
+.nature{
+    display: block;
+    position: relative;
+    
+    background-color: #4F6A13;
+}

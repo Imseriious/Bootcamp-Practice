@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0px;
+}
+
+.container{
+    display: flex; /*Tells the container it will be a flex*/
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.item{
+    flex-grow: 1; /*How much of the container should occupy (Number 1 for example takes 1 space)*/
+    flex-shrink: 0; /*Doesnt let the item to shrink*/
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.3rem;
+}
+
+/*((Container proprieties))*/
+
+/*align-content: flex-start; This will align the space beewteem cross axis (Align lines)*/
+/*align-items:flex-start; Alignment cross axis (Align content)*/
+/*flex-wrap: wrap; Tells the container how to wrap the items when there is no place anymore*/
+/*flex-direction: row; /*Column means that the main axes is going "Down" its a column and the cross is left to right (Switched)*/
+/*justify-content:space-evenly ; Tells witch way the items should be on the main axis */
+/*align-items: center; /*Strech would make the content go as wide as possible*/
+
+/*((End of Container proprieties))*/
+
+
+/*((Item proprieties))*/
+
+    /*flex-basis: 3rem; /*Size along the main axis, you tell the item watch space should take*/
+
+
+/*((End of Item proprieties))*/
+

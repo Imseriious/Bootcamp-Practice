@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box; /*Border box takes the width with the border included not just the content */
+                            /*Content box would take the width of the element without the border*/
+}
+html{
+    font-family: sans-serif;
+    font-size: 18px; /*This would be 1 rem because its specified here*/
+}
+body{
+    background-image: url(grid.png);
+    margin: 0;
+    /* The body needs specific height so the containers can adjust the "50%"*/
+    height: 100vh; /*100vh means 100% of viewport height*/
+}
+
+.box{
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat; /*controlling wich direction the iomage repeats x or y*/
+    background-size: cover; /*cover: The images cover the element, contain: always see the whole image*/
+    background-attachment: fixed: /*You scroll but the background stays*/
+}
+
+
+
+
+
+
+/*.box{
+    display: block; This its the default option so its not neccesary to mention 
+    background-color:magenta;
+    width: 20rem;
+    height: 50%; Now it takes 50% of the viewport because the body has the height to the 100vh
+    margin: 1rem;
+    padding: 1rem; rem means it would take the "HTML" font size
+    border: 1px solid black; */
+    
+}
+
+    /*left: 2rem; /*We put the element 2 rem from the left because its "Relative"
+    position: relative; /*Position relative tells the browser to take the original position and place it where it should be (Its relative to the original position)
+
+    If we do "Margin:auto; The body its also display block so it would not center everything, we just make the body as short as possible and the content stays on the top
+
+    margin-top: 1rem;
+    margin-bottom: 2rem; This would win because its bigger
+    
+    margin: 1rem (Means all sizes)
+    margin: 1rem 2 rem (Means Top and bottom 1 rem and left right 2rem)
+    
+        max-width: 20rem;
+        min-height: 10rem;
+    
+    min-width its not so used because display block would take the whole space neccesary anyway
+    max-height Its same thing as min-width, not so used
+    width: 50%; We can do % So we specify how much % the element takes from the container in witch its in.
+    height: 3rem; Would be x3 rem
+    overflow: hidden; This would make the text that doesnt fit, to be hidden not to overflow and go outside the box
+    
+    margin: 1rem;
+    border: 1px solid black;
+
+    Margin colapsion: If margin top and margin bottoms meets, the biggest win*/
+
+
+
+
+
+
