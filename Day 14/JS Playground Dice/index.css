@@ -1,0 +1,38 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#roll{
+    width: 200px;
+    margin-top: 20px;
+    background-color: brown;
+    border: solid 2px orange;
+    color: white;
+}
+
+.dice{
+    background-position: center;
+    border-radius: 20px;
+    border: solid 4px white;
+    height: 300px;
+    width: 300px;
+}

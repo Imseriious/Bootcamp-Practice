@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.box {
+    background-color: blue;
+    
+}

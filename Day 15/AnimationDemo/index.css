@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+@keyframes myanim {
+    0% {background-color: gold;}
+    50% {background-color: green;}
+    100% {background-color: black;}
+
+}
+
+body{
+    perspective: 5000px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: deepskyblue;
+    animation-name: myanim;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    /*transition: 2s;
+    transform-origin: 50% 50%; /*Where should hapen (50% 50% its from the middle) Pivot point.*/
+    
+    /*transition: 1s;
+    border-radius: 0;8*/
+    
+}
+
+.switch{
+    transform: rotateX(45deg);
+    
+}
+
+/*.switch{
+    opacity: 0;
+}*/
