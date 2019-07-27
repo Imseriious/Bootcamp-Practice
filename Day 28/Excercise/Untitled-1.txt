@@ -1,0 +1,16 @@
+The student ---
+
+
+FirstName: Short
+LastName: String
+Nationanity: String
+Age: Number
+Gender: Boolean?
+Height: Number
+IQ: Number
+Pet: Boolean
+Favorite food: String
+Weight: Number
+Grades: Numbers Arrays
+Relationship status: String
+

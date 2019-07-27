@@ -1,0 +1,6 @@
+{
+    "name": "samue/composer-project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

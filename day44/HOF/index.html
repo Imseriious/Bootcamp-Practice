@@ -1,0 +1,53 @@
+<script>
+//Random
+    const power = n => n * n * n; //arrow function that multiplies the number 3 times.
+                                  //power(4) = 4*4*4
+
+
+
+//Random
+    const hello = () => console.log('hello'); //the function will console log hello.
+    setTimeout(hello, 5000); //takes the function as an argument. after 5 seconds, you get hello
+    setInterval(hello, 5000); //every 5 seconds you get a hello
+
+
+//Random
+    const values = [13.5, 12.1, 10.9, 16.3, 12.3, 11.4];
+    const result = []; //Start with empty array.
+
+    for (const val of values) { //we create a variable val for every value
+        result.push(Math.round(val)); //we push in the result a math rounded number of every val
+    }
+
+    console.log(result); //we see the results
+
+//Excercise same as before with foreach
+    const values = [13.5, 12.1, 10.9, 16.3, 12.3, 11.4];
+    const result = []; //Start with empty array.
+    
+    const results = values.map(val => Math.round(val)); //map creates a new array with the values rounded.
+
+//filter
+
+    const values = [13.5, 12.1, 10.9, 16.3, 12.3, 11.4];
+    
+    
+    const results = values.filter(val => val > 13); //It will take the results more than 13
+
+//reduce
+
+    const values = [2, 3, 4, 1];
+
+    const result = values.reduce((x, y) => x + y); //it takes 2 parameters. starts with the first to numbers of the array, makes the sum and for the next operation x is the result of the sum x + y and the y is the next nr in the array. The result in this one is 10
+    //const result = values.reduce((x, y) => x + y, 5); If we do this the first value of x will be 5
+
+//another reduce
+
+    const values = [2, 3, 4, 1];
+
+    const result = values.reduce(
+        (x, y) => [...x, y * 2], [] 
+        );
+
+
+</script>
